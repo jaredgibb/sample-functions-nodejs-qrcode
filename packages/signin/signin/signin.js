@@ -5,7 +5,7 @@ const cors = require('cors')({ origin: true });
 
 
 
-module.exports.signup = async function (req, res)  {
+exports.main = async function (req, res)  {
     cors(req, res, async () => {
          
         const email = req.body.email;
